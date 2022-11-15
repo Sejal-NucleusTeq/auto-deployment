@@ -7,6 +7,8 @@ services:
       - "8080:8080"
     depends_on:
       - pdb
+    runs-on:
+      self-hosted
     networks:
       - shared-network
   pdb:
@@ -19,6 +21,8 @@ services:
       - POSTGRES_DB=inventory_management_pdb
     networks:
       - shared-network
+    runs-on:
+      self-hosted
   client:
     image : frontendimage
     build : ./frontend
@@ -31,6 +35,8 @@ services:
       - ./client:/app
     depends_on:
       - app
+    runs-on:
+      self-hosted
     networks:
       - shared-network
 networks:
