@@ -1,0 +1,56 @@
+.assign-main-page{
+    margin-top: -18rem;
+    padding-bottom: 2rem;
+}
+
+.assignHead{
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+.assignForm{
+    padding-left: 50px;
+}
+.assign-inputs{
+    font-style: italic;
+    background-color: #eee;
+	border: none;
+	margin: 8px 1000px;
+	width:700px;
+	margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    margin-bottom: 15px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.assign-details{
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 7vh;
+    margin-bottom: 50px
+}
+para-style.a{
+    color: rgb(212, 17, 17);
+}
+.assign-flex{
+    padding: 20px;
+    display: flex;
+
+}
+
+.float-child {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}  
+.getButton{
+    width: 150px;
+    background-color: #E27D60;
+}
+.assign-item{
+    margin-left: -10rem;
+}

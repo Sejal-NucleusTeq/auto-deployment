@@ -1,0 +1,37 @@
+.table-container {
+    width: calc(100% - 220px);
+    margin: 0 auto;
+    margin-left: -5rem;
+    background-color: rgb(100, 103, 102);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+td,
+th {
+  border: 1px solid #444343;
+  text-align: left;
+  padding: 8px;
+}
+.btn-group {
+    display: flex;
+    margin-bottom: 24px;
+}
+.btn-group button {
+    background-color: #fff;
+    color: #181414;
+    padding: 16px 24px;
+    border-radius: 5px;
+    margin-right: 16px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid '#202020';
+    font-weight: 600;
+}
+.btn-group button.active {
+    background-color: #181515;
+    color: #fff;
+}

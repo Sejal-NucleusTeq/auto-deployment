@@ -1,0 +1,24 @@
+footer {
+    background-color: rgb(3, 3, 3);
+    color: rgb(14, 12, 12);
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #ed3b05;
+    text-decoration: none;
+}

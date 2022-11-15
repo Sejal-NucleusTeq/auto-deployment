@@ -1,0 +1,93 @@
+
+  .register-container {
+    border-radius: 10px;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    margin-left: 25rem;
+  }
+  
+  .form-main{
+    height: '100%';
+    display: 'flex';
+    flex-direction: 'column';
+    display: flex;
+    max-height: 90vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 50vw;
+  }
+  .signupinput{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom:2px;
+    padding: 4px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.2s ease;
+    float: inline-start;
+  }
+  .registre-input{
+    margin-top: -1rem;
+  }
+  .input-heading{
+    align-items: flex-start;
+    background-color:black
+  }
+  
+  .submitButton{
+    margin-right: 20px;
+    margin-top: 22px;
+    width: 150px;
+    height: 40px;
+    background: #E27D60;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 650;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;}
+    .submitButton:hover,.submitButton:focus{
+      opacity: 0.8;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      transition: 0.1s ease;
+    }
+    .submitButton:active{
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+    }
+  .form-main{
+    margin-right: 0px;
+    padding-left: 100px;
+    margin-top: -0.5cm;
+  }
+  .signupheading{
+    padding-top: 0.2px;
+    padding-bottom: 3px;
+    font-weight: bolder;
+    padding-right: 9.5%;
+  }
+  .logoimg{
+    margin-inline-start: 0%;
+    margin-top: -1cm;
+  }
+  .selectordesignation{
+    width: 240px;
+    height: 40px;
+    margin-bottom: 0.6rem;
+  }
+  .selectordesignationError{
+    width: 240px;
+    height: 40px;
+  }

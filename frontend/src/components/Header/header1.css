@@ -1,0 +1,23 @@
+
+header {
+	/*Strictly Necessary */
+	position: fixed;
+	width: 80%;	
+	height: 100px; /*Adjust the hight to your purposes*/
+	
+	/*Aesthetics*/
+	background: rgb(250, 243, 240);
+	border-radius: 7px;
+    
+}
+
+	 
+	  
+	  .logo {
+		padding: 5px;
+	    display: grid;
+	    grid-column: 2/3;
+	    justify-content: start;
+	    align-items: center;
+	  }
+	  
