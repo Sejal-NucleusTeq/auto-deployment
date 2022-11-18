@@ -2,7 +2,7 @@ version: '3.7'
 services:
   app:
     image: backendimage
-    build: ./backend/target/inventory-management-docker.jar
+    build: ./backend
     ports:
       - "8080:8080"
     depends_on:
